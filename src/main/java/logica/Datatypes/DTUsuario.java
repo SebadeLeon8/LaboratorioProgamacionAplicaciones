@@ -1,9 +1,9 @@
-public class Usuario {
+public class DTUsuario {
     private String nickname;
     private String nombre;
     private String correo;
 
-    public Usuario(String nickname, String nombre, String correo) {
+    public DTUsuario(String nickname, String nombre, String correo) {
         this.nickname = nickname;
         this.nombre = nombre;
         this.correo = correo;
