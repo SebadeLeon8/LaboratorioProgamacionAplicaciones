@@ -1,14 +1,14 @@
 package logica
 
-public class Usuario {
+public abstract class Usuario {
     private String nombre;
-    private String apellido;
+    private String nickname;
     private String correo;
     private TipoUsuario tipoUsuario;
 
-    public Usuario(String nombre, String apellido, String correo, TipoUsuario tipoUsuario) {
+    public Usuario(String nombre, String nickname, String correo, TipoUsuario tipoUsuario) {
         this.nombre = nombre;
-        this.apellido = apellido;
+        this nickname = nickname;
         this.correo = correo;
         this.tipoUsuario = tipoUsuario;
     }
@@ -17,8 +17,8 @@ public class Usuario {
         return nombre;
     }
 
-    public String getApellido() {
-        return apellido;
+    public String getNickname() {
+        return nickname;
     }
 
     public String getCorreo() {
@@ -33,8 +33,8 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public void setApellido(String apellido) {
-        this.apellido = apellido;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
     public void setCorreo(String correo) {
