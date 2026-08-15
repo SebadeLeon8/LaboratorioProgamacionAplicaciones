@@ -1,3 +1,5 @@
+package logica
+
 public class DTFecha {
     private int anio;
     private int mes;

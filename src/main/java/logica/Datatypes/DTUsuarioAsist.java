@@ -1,3 +1,5 @@
+package logica
+
 public class DTUsuarioAsist {
     private String apellido;
     private DTFecha fechaNacimiento;

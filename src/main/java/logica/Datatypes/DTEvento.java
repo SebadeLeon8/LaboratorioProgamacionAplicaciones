@@ -1,3 +1,5 @@
+package logica
+
 public class DTEvento {
     private String nombre;
     private String descripcion;

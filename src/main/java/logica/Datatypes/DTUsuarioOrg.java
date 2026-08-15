@@ -1,3 +1,5 @@
+package logica
+
 public class DTUsuarioOrg {
     private String descripcion;
     private String enlace;

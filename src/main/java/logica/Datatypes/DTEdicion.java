@@ -1,3 +1,5 @@
+package logica
+
 public class DTEdicion {
     private String nombre;
     private String descripcion;
