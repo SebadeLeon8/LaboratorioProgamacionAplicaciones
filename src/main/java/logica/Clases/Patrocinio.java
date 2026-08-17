@@ -1,4 +1,4 @@
-package logica
+package logica;
 
 public enum NivelPatrocinio {PLATINO, ORO, PLATA, BRONCE}
 

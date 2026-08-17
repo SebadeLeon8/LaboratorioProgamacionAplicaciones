@@ -1,4 +1,5 @@
-package logica
+package logica;
+
 import java.time.LocalDate;
 
 public class Asistente extends Usuario {
