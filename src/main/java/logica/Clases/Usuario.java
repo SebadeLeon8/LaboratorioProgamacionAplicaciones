@@ -8,7 +8,7 @@ public abstract class Usuario {
 
     public Usuario(String nombre, String nickname, String correo, TipoUsuario tipoUsuario) {
         this.nombre = nombre;
-        this nickname = nickname;
+        this.nickname = nickname;
         this.correo = correo;
         this.tipoUsuario = tipoUsuario;
     }
